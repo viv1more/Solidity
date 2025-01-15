@@ -9,12 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num1",
+						"name": "n1",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "num2",
+						"name": "n2",
 						"type": "uint256"
 					}
 				],
@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"contracts/add.sol": {
-			"keccak256": "0xdfdf5dcdcc43d4f08c1f8b96a1c44c18499e14e96feaff057026c1441388dfb0",
+			"keccak256": "0x4fa6fbd68e65063593e77ee9a6807fd278ad76ca603d85bea8bdc407da74a5a5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20063df48c30f554e7575e30a3539e0b72800995447e29bbaff632a8161ccfe9",
-				"dweb:/ipfs/QmQdY1fuhrHFoBuNyhhraKoGGoDunru6kEDNyC2HGncwL4"
+				"bzz-raw://db3bfc491a32e90397647a5fcfdd87571ea14d58367a2b79cefe1655d0e0e12b",
+				"dweb:/ipfs/QmW5WDxBunQzWMN1L1SM1UeQubSePwo4pxjdY8xba9JyzU"
 			]
 		}
 	},
