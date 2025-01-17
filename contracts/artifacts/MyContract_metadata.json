@@ -6,19 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "n1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "n2",
-						"type": "uint256"
-					}
-				],
-				"name": "add",
+				"inputs": [],
+				"name": "number",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,31 +15,38 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number_2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "n1",
+						"name": "_num",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "n2",
+						"name": "num2",
 						"type": "uint256"
 					}
 				],
-				"name": "sub",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -67,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/add.sol": "Addition"
+			"contracts/setnum.sol": "MyContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -81,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/add.sol": {
-			"keccak256": "0xb3ec9352e869fd426783ad389dd5e023b227b12715fbc7dbd74536e0d7c4c9d0",
+		"contracts/setnum.sol": {
+			"keccak256": "0x7f832764c532a45849ffbfc35594cc8352e0911853c971202dcff099fd020018",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5e62d91d28f999432268dc4a9b0e8a178e97eb6da6edf45ea6852d4441cfea01",
-				"dweb:/ipfs/QmfMCUezTt2S6qek6JxCPHHg1ChKvyzvvSgjV9fXrnKoZm"
+				"bzz-raw://515a7169b2b576634b9f4b37446256c3fd85127f47a5c6215c7c5a24818ecddc",
+				"dweb:/ipfs/QmYSJpGCmahvGDrmpSgQA1uwJtBvqvZCndfNCBsf173FUU"
 			]
 		}
 	},
