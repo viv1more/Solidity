@@ -92,11 +92,11 @@
 	},
 	"sources": {
 		"contracts/bank2.sol": {
-			"keccak256": "0x3a7644176e054d4c88b9b181866fba39060daeb789d3ef2eb6dd29a9b152b7bd",
+			"keccak256": "0xf1e8c653eeccaa8f54ca2dd234f64c7a6076cd0bbd59c9636d53a473b04d3919",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://123a1b3c498468d676bbdb49093537e771d6b5dbbcde007b9fced7f83a40c82b",
-				"dweb:/ipfs/QmUmAiVvgPxkCK4PKZToZNC3AHxyXMn5rCKkuFMWEB8wpw"
+				"bzz-raw://8f09172f0dd4e866b46613470f982d0bbd1ffa640919022ac0dad274aeecb751",
+				"dweb:/ipfs/QmRemH5KZ9QZSVKgRBvmciorJJdcCVaCVitp217T9q9Dbu"
 			]
 		}
 	},

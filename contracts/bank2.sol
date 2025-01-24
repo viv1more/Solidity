@@ -10,10 +10,10 @@ contract Bank2{
         balance += amount;
     } 
 //view account balance
-    // function viewBalance () public view returns (uint)
-    // {
-    //     return balance;
-    // }
+    function viewBalance () public view returns (uint)
+    {
+        return balance;
+    }
 //calculate the interest
     function CalcInterest(uint rate) public view returns(uint)
     {
