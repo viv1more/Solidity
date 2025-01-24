@@ -9,11 +9,6 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
 						"name": "rate",
 						"type": "uint256"
 					}
@@ -26,7 +21,20 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rate",
+						"type": "uint256"
+					}
+				],
+				"name": "addInterest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -53,19 +61,6 @@
 				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "viewBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -97,11 +92,11 @@
 	},
 	"sources": {
 		"contracts/bank2.sol": {
-			"keccak256": "0x66243f124b575da25128610e55fdb5346e72435708e90e719e8f69d676acacc4",
+			"keccak256": "0x3a7644176e054d4c88b9b181866fba39060daeb789d3ef2eb6dd29a9b152b7bd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d68727aa69948d05142cf06340b9d76364d93e05f117362c53defbad30fa361d",
-				"dweb:/ipfs/QmUTSdPVh6dA7dyskXArnzQvVQgSzaVZvgvq3oSPk5pHHJ"
+				"bzz-raw://123a1b3c498468d676bbdb49093537e771d6b5dbbcde007b9fced7f83a40c82b",
+				"dweb:/ipfs/QmUmAiVvgPxkCK4PKZToZNC3AHxyXMn5rCKkuFMWEB8wpw"
 			]
 		}
 	},
