@@ -3,8 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Bank2{
     uint public balance;
-    uint balin;
-    
+       
 //add amount to the bank balance
     function deposit(uint amount) public  //state-changing function
     {
