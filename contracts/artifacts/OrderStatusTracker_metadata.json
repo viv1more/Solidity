@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "currentStage",
+				"outputs": [
+					{
+						"internalType": "enum OrderStatusTracker.OrderStage",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOrderStage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum OrderStatusTracker.OrderStage",
+						"name": "_stage",
+						"type": "uint8"
+					}
+				],
+				"name": "updateOrderStage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enum1.sol": "OrderStatusTracker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enum1.sol": {
+			"keccak256": "0x9dccf30e944210bb2e228adb1d3f1b4937fc63b9ac1b1efdd5a16d0a63031757",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6caeb46160dcfc112c1cc3719bd15fa57f81c8791b1dba4b31b6e87f9aecc642",
+				"dweb:/ipfs/Qma3zU7Rrve8bBcvX8N5GQ6Mf2vM1rK4dNPtaUqSeTzfUN"
+			]
+		}
+	},
+	"version": 1
+}

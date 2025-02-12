@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_recordId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_recordName",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isVerified",
+						"type": "bool"
+					}
+				],
+				"name": "addRecord",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getRecord",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "records",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "recordId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "recordName",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isVerified",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/struct.sol": "RecordExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/struct.sol": {
+			"keccak256": "0x8f58bb3e2b9e24cd843211d7da5411cce53ff9571717f89f2a0ff35fc90ed4b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c4026a795d49e3350ad298ed4cd7d03435c434a0b8098318c7b5f02b84c39d09",
+				"dweb:/ipfs/QmTmtDdAU17nN8trQ9uGbqDZJLpfJYpq2XrPdC1XdH598X"
+			]
+		}
+	},
+	"version": 1
+}
